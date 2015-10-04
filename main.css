@@ -1,0 +1,48 @@
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+	line-height: 1;
+	max-width:1920px;
+        font-size: 100%;
+}
+
+
+
+
+h1,h2,h3,h4,h5,h6{
+color:#222;
+font-family: Georgia,serif;
+text-align:center;
+text-shadow: 0px 0px 1px #ccc;
+}
+
+a{text-decoration:none}
+
+a:hover{text-decoration:underline}
+
+img{border:none}
+
+.clear{clear:both}
+
+.center{text-align:center;margin:0 auto}
+
+.small{font-size:0.9em}
+
+form{
+display: -moz-box;
+}
+
+input[type="text"]{
+-moz-box-flex: 1;
+max-width:600px;
+height:24px;
+font-size:16px;
+color:rgb(100, 100, 100);
+}
+
+#button{
+height:31px;
+cursor:pointer;
+}
